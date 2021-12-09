@@ -4,12 +4,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
     margin: 0 auto 56px;
     position: relative;
 }
