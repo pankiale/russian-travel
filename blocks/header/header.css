@@ -1,9 +1,15 @@
 .header {
   width: calc(100% - 48px*2);
   height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: end;
-  align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin: 0 auto 56px;
   position: relative;
 }

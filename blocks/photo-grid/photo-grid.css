@@ -1,9 +1,24 @@
- .photo-grid {
+.photo-grid {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
     grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: auto;
     grid-template-rows: auto;
     width: calc(100% - 48px*2);
     gap: 16px;
+ } .photo-grid > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+ } .photo-grid > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+ } .photo-grid > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+ } .photo-grid > *:nth-child(4) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 7;
  }
 
  @media screen and (max-width: 1140px ) {
