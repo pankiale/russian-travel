@@ -1,17 +1,17 @@
 .header__logo{
-  width: 176px;
-  height: 52px;
-  -o-object-fit: fill;
+    width: 176px;
+    height: 52px;
+    -o-object-fit: fill;
      object-fit: fill;
-  margin-left: 0px;
-  position: absolute;
-  left: 0;
-  top: 0;
+    margin-left: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 @media screen and (max-width: 568px){
-  .header__logo {
-  width: 142px;
-  height: 42px;
+    .header__logo {
+        width: 142px;
+        height: 42px;
   }
 }
