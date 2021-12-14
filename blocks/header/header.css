@@ -1,13 +1,9 @@
 .header {
     width: calc(100% - 48px*2);
-    height: 52px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, max-content);
     align-items: flex-end;
     margin: 0 auto 56px;
-    position: relative;
 }
 
 @media screen and (max-width: 1140px ) {

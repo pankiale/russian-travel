@@ -1,14 +1,14 @@
 .header__logo{
     width: 176px;
     height: 52px;
-    -o-object-fit: fill;
-     object-fit: fill;
-    margin-left: 0px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    object-fit: fill;
+    margin: 0;
+    transition: opacity .3s linear;
 }
 
+.header__logo:hover {
+    opacity: .8;
+}
 @media screen and (max-width: 568px){
     .header__logo {
         width: 142px;
