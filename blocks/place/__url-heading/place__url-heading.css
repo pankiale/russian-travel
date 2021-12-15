@@ -2,9 +2,16 @@
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 20px;
     letter-spacing: 2px;
     margin: 0 0 12px;
+    color: #aaa;
+}
+
+@media screen and (max-width: 984px ) {
+    .place__url-heading {
+        line-height: 12px;
+    }
 }
 
 @media screen and (max-width: 568px){

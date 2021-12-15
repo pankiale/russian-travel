@@ -1,6 +1,8 @@
 .header__lang-links {
     display: grid;
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-auto-flow: column;
+    align-items: center;
     gap: 18px;
     list-style-type: none;
     margin: 0;

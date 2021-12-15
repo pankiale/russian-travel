@@ -9,3 +9,9 @@
     color: #FFF;
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 568px){
+    .page {
+        padding-top: 16px;
+  }
+}
