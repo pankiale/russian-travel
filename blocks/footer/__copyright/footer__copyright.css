@@ -5,10 +5,10 @@
     line-height: 16px;
   }
   
-  @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .footer__copyright {
-      align-self: flex-start;
-      margin-top: 16px;
+        align-self: flex-start;
+        margin-top: 16px;
     }
-  }
+}
   

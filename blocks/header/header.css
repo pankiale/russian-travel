@@ -9,18 +9,17 @@
 @media screen and (max-width: 1140px ) {
     .header {
         margin: 0 auto 48px;
-
-  }
+    }
 }
 
 @media screen and (max-width: 984px ) {
     .header {
         width: calc(100% - 24px*2);
-  }
+    }
 }
 
 @media screen and (max-width: 568px){
     .header {
         width: calc(100% - 16px*2);
-  }
+    }
 }

@@ -9,11 +9,11 @@
     .lead {
         width: calc(100% - 48px*2);
     }
-  }
+}
   
   @media screen and (max-width: 984px ) {
-    .lead{
+    .lead {
         width: 100%;
     }
-  }
+}
   
